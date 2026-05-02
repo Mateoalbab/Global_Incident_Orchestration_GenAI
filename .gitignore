@@ -1,0 +1,16 @@
+# Environment
+venv_incident_orchestrator/
+__pycache__/
+*.pyc
+
+# Data (Ignoramos archivos pesados o temporales de la base de datos)
+Data/Raw/*.csv
+Data/Processed/*.db
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Mentor Guide (Archivo local)
+Mentor_Guide.txt
