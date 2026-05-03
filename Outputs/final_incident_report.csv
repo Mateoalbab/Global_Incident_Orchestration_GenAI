@@ -1,0 +1,541 @@
+Ticket_ID,Timestamp,Description,Region,Cost_Center,Initial_Severity,ai_analysis
+INC-100000,2026-01-26 07:05:08,Payroll System reported a high latency during nightly backup.,EMEA,CC-IT-INFRA,Critical,"Okay, here’s a concise analysis:
+
+**Analysis:** Latency during nightly backups indicates a potential performance bottleneck. **Root Cause:** Likely database query optimization or insufficient server resources. **Priority:** 3 – Requires immediate investigation. **Suggested Process Improvement:** Implement database monitoring and performance testing."
+INC-100001,2026-02-03 09:46:01,SQL Server reported a connectivity failure in Cartagena Branch.,NORTHAM,CC-SALES,Medium,"Okay, here’s a concise analysis:
+
+**Analysis:** SQL Server connectivity failure at Cartagena Branch – Likely a technical issue. **Priority:** 3. **Suggested Process Improvement:** Implement proactive monitoring and automated failover for critical SQL Server services."
+INC-100002,2026-01-07 06:26:22,Cloud Storage reported a connectivity failure in the Production Environment.,APAC,CC-ADMIN,Low,"Okay, here’s a concise analysis:
+
+**Analysis:** Cloud Storage connectivity failure in Production.
+
+**Root Cause:** Likely a network issue or misconfiguration.
+
+**Priority:** 3
+
+**Suggested Process Improvement:** Immediate investigation into network health, service level agreements (SLAs), and potential troubleshooting steps."
+INC-100003,2026-04-27 22:00:42,Payroll System reported a performance degradation in Cartagena Branch.,EMEA,CC-ADMIN,Medium,"Okay, here’s a concise analysis:
+
+**Analysis:** Payroll System performance degradation in Cartagena Branch – Likely a **Technical** issue (server instability). Priority: 3. Suggested Process Improvement: Implement proactive monitoring and regular system checks."
+INC-100004,2026-02-26 04:14:42,Network Firewall reported a expired certificate in Bogota Office.,EMEA,CC-IT-INFRA,High,"Okay, here’s a concise analysis:
+
+**Analysis:**
+
+*   **Root Cause:** Systemic – Potential lack of certificate renewal process oversight.
+*   **Priority:** 3
+*   **Suggested Process Improvement:** Implement automated certificate renewal reminders and a centralized certificate management system."
+INC-100005,2026-03-25 15:29:04,Network Firewall reported a database lock in the Finance Subnet.,APAC,CC-LOGISTICS,Low,"Okay, here’s a concise analysis:
+
+**Analysis:** Network Firewall reported database lock in Finance Subnet – Likely a system issue. Root Cause: Potential misconfiguration or resource contention. Priority: 3 – Requires immediate investigation. Suggested Process Improvement: Implement monitoring and proactive checks for database lock events."
+INC-100006,2026-02-26 03:02:02,Payroll System reported a sync failure on the Cloud Cluster.,NORTHAM,CC-SALES,Low,"Okay, here’s a concise analysis:
+
+**Analysis:**
+
+*   **Root Cause:** Systemic – Cloud Cluster sync failure.
+*   **Priority:** 3
+*   **Suggested Process Improvement:** Implement enhanced monitoring and alerting for Cloud Cluster syncs, including automated rollback procedures."
+INC-100007,2026-02-01 23:35:34,Inventory API reported a timeout error in the Production Environment.,APAC,CC-LOGISTICS,Low,"Okay, here’s a concise analysis:
+
+**Analysis:** Inventory API timeout in Production.
+
+**Root Cause:** Likely a database connection issue or resource exhaustion.
+
+**Priority:** 3
+
+**Suggested Process Improvement:** Investigate database performance, monitor API usage, and implement alerting for connection failures."
+INC-100008,2026-02-23 03:03:07,Customer Portal reported a service outage in Bogota Office.,APAC,CC-FINANCE,High,"Okay, here’s a concise analysis:
+
+**Analysis:**
+
+*   **Root Cause:** Systemic – Potential database issue impacting Bogota Office.
+*   **Priority:** 3
+*   **Suggested Process Improvement:** Immediate database replication testing and rollback to identify the root cause."
+INC-100009,2026-02-03 02:39:48,Cloud Storage reported a sync failure on the Cloud Cluster.,NORTHAM,CC-IT-INFRA,Medium,"Okay, here’s a concise analysis:
+
+**Analysis:** Cloud Storage sync failure – Technical.
+
+**Priority:** 3
+
+**Suggested Process Improvement:** Implement enhanced monitoring of Cloud Cluster sync status and trigger automated alerts for potential failures."
+INC-100010,2026-04-13 20:18:26,Network Firewall reported a high latency on the Cloud Cluster.,LATAM,CC-ADMIN,Critical,"Okay, here’s a concise analysis:
+
+**Analysis:** Network Firewall latency on the Cloud Cluster – Likely a technical issue. **Priority:** 3. **Suggested Process Improvement:** Investigate firewall logs for recent changes, optimize routing rules, and conduct performance testing."
+INC-100011,2026-04-08 17:03:13,Exchange Server reported a performance degradation in Cartagena Branch.,NORTHAM,CC-IT-INFRA,Critical,"Okay, here’s a concise analysis:
+
+**Analysis:** Exchange Server performance degradation in Cartagena Branch – Likely a Systemic issue – Priority: 3. Suggested Process Improvement: Implement proactive monitoring and regular performance testing to identify and address root causes before impacting users."
+INC-100012,2026-04-22 23:30:38,Cloud Storage reported a high latency in the Finance Subnet.,APAC,CC-LOGISTICS,High,"Okay, here’s a concise analysis:
+
+**Analysis:** Cloud Storage latency in the Finance Subnet – Likely a Systemic issue.
+
+**Priority:** 3
+
+**Suggested Process Improvement:** Investigate network connectivity, storage tiering, and potential resource contention within the Finance subnet."
+INC-100013,2026-03-31 03:48:54,Exchange Server reported a high latency during nightly backup.,APAC,CC-IT-INFRA,Critical,"Okay, here’s a concise analysis:
+
+**Analysis:** High Exchange latency during nightly backups suggests a potential issue with network connectivity or server resource contention. **Priority:** 3. **Suggested Process Improvement:** Investigate network bandwidth, server CPU/memory utilization, and backup scheduling to identify the root cause."
+INC-100014,2026-01-18 09:55:02,Cloud Storage reported a sync failure during nightly backup.,APAC,CC-LOGISTICS,Medium,"Okay, here’s a concise analysis:
+
+**Analysis:** Cloud Storage sync failure during nightly backup – Likely a Systemic issue – Priority: 3. Suggested Process Improvement: Implement enhanced monitoring & alerting for backup failures, and trigger automated rollback procedures."
+INC-100015,2026-01-24 14:59:24,Exchange Server reported a timeout error in the Finance Subnet.,APAC,CC-FINANCE,High,"Okay, here’s a concise analysis:
+
+**Analysis:** Exchange Server timeout error in the Finance subnet.
+
+**Root Cause:** Likely a resource exhaustion (CPU, memory) within the Finance subnet, potentially due to a large number of users or complex workflows.
+
+**Priority:** 3 – Requires immediate investigation.
+
+**Suggested Process Improvement:**  Monitor Finance subnet resource usage and implement proactive scaling or optimization."
+INC-100016,2026-02-14 20:23:33,Active Directory reported a performance degradation on the Cloud Cluster.,NORTHAM,CC-ADMIN,Medium,"Okay, here’s a concise analysis:
+
+**Analysis:** Active Directory performance degradation on the Cloud Cluster is likely a **Systemic** issue – likely due to resource contention or configuration issues.  **Priority:** 3. **Suggested Process Improvement:** Implement proactive monitoring and capacity planning for the Cloud Cluster."
+INC-100017,2026-01-25 10:21:44,SQL Server reported a performance degradation in Cartagena Branch.,LATAM,CC-SALES,Low,"Okay, here’s a concise analysis:
+
+**Analysis:** SQL Server performance degradation at the Cartagena Branch – Likely a Systemic issue. Priority: 3. Suggested Process Improvement: Implement proactive monitoring, database optimization, and regular performance testing."
+INC-100018,2026-03-14 09:32:10,SQL Server reported a database lock in Cartagena Branch.,NORTHAM,CC-LOGISTICS,High,"Okay, here’s a concise analysis:
+
+**Analysis:** SQL Server database lock in Cartagena Branch – Technical.
+
+**Priority:** 3
+
+**Suggested Process Improvement:** Implement proactive monitoring of SQL Server performance and database health, including automated alerts for lock events."
+INC-100019,2026-04-03 03:10:42,Exchange Server reported a unauthorized access attempt during nightly backup.,APAC,CC-ADMIN,Medium,"Okay, here’s a concise analysis:
+
+**Analysis:** Unauthorized access attempt during nightly backup – Likely a Systemic issue. Priority: 3. Suggested Process Improvement: Implement enhanced monitoring of backup logs and stricter access controls to prevent future incidents."
+INC-100020,2026-01-23 02:57:26,Inventory API reported a unauthorized access attempt in Bogota Office.,EMEA,CC-ADMIN,High,"Okay, here’s a concise analysis:
+
+**Analysis:**
+
+*   **Root Cause:** Systemic – Potential misconfiguration or lack of access controls within the Inventory API.
+*   **Priority:** 3
+*   **Suggested Process Improvement:** Implement enhanced access auditing and role-based permissions checks for the API."
+INC-100021,2026-02-23 21:47:42,Active Directory reported a database lock in the Finance Subnet.,NORTHAM,CC-FINANCE,Critical,"Okay, here’s a concise analysis:
+
+**Analysis:** Active Directory database lock in the Finance subnet.
+
+**Root Cause:** Likely a misconfiguration, recent schema change, or user account issue.
+
+**Priority:** 3
+
+**Suggested Process Improvement:** Implement database auditing and monitoring, and verify user permissions before schema changes."
+INC-100022,2026-03-22 13:10:54,Customer Portal reported a database lock in the Production Environment.,EMEA,CC-IT-INFRA,High,"Okay, here’s a concise analysis:
+
+**Analysis:** Database lock in Production – Technical.
+
+**Priority:** 3
+
+**Suggested Process Improvement:** Immediate investigation into recent database maintenance, potential schema changes, and user access controls."
+INC-100023,2026-04-26 13:44:39,Payroll System reported a connectivity failure in Bogota Office.,EMEA,CC-LOGISTICS,Medium,"Okay, here’s a concise analysis:
+
+**Analysis:**
+
+*   **Root Cause:** Systemic – Potential network outage affecting multiple users.
+*   **Priority:** 3
+*   **Suggested Process Improvement:** Implement proactive monitoring and network health checks for the Bogota Office."
+INC-100024,2026-03-20 16:44:49,SAP ERP reported a connectivity failure in the Finance Subnet.,EMEA,CC-SALES,Medium,"Okay, here’s a concise analysis:
+
+**Analysis:** SAP Finance Subnet connectivity failure. Root Cause: Potential network issue or misconfiguration. Priority: 3. Suggested Process Improvement: Implement network monitoring and proactive configuration checks."
+INC-100025,2026-04-14 10:58:06,Customer Portal reported a service outage during nightly backup.,APAC,CC-IT-INFRA,Low,"Okay, here’s a concise analysis:
+
+**Analysis:**
+
+*   **Root Cause:** Systemic – Potential database issue during the backup process.
+*   **Priority:** 3
+*   **Suggested Improvement:** Implement enhanced monitoring of the backup process and automated alerts for database errors."
+INC-100026,2026-03-16 07:36:02,Exchange Server reported a high latency in the Production Environment.,EMEA,CC-LOGISTICS,Critical,"Okay, here’s a concise analysis:
+
+**Analysis:** Exchange Server latency is likely a technical issue – potential hardware, configuration, or software conflict. **Priority:** 3. **Suggested Process Improvement:** Investigate recent updates, monitor server performance, and verify DNS settings."
+INC-100027,2026-02-26 18:21:49,Inventory API reported a performance degradation in Bogota Office.,NORTHAM,CC-FINANCE,Medium,"Okay, here’s a concise analysis:
+
+**Analysis:** Inventory API performance degradation in Bogotá Office – Likely a Systemic issue. Priority: 3. Suggested Process Improvement: Implement monitoring and alerting for API performance, coupled with a thorough review of data pipelines and resource allocation."
+INC-100028,2026-04-17 08:52:24,Network Firewall reported a service outage in Cartagena Branch.,EMEA,CC-IT-INFRA,Medium,"Okay, here’s a concise analysis:
+
+**Analysis:** Network Firewall outage in Cartagena Branch – Technical (Firewall Issue). Priority: 3. Suggested Process Improvement: Implement proactive monitoring and automated failover for the firewall to reduce future incidents."
+INC-100029,2026-01-15 00:11:23,Cloud Storage reported a performance degradation on the Cloud Cluster.,LATAM,CC-SALES,Critical,"Okay, here’s a concise analysis:
+
+**Analysis:** Cloud Storage performance degradation – Likely a Systemic issue. **Priority:** 3. **Suggested Process Improvement:** Implement proactive monitoring and alerting for storage cluster health."
+INC-100030,2026-04-05 17:39:46,SQL Server reported a service outage in the Finance Subnet.,EMEA,CC-IT-INFRA,Low,"Okay, here’s a concise analysis:
+
+**Analysis:** SQL Server outage in the Finance subnet. Likely a technical issue – potential database corruption or performance degradation. **Priority:** 3. **Suggested Process Improvement:** Implement proactive monitoring, database backups, and regular performance testing."
+INC-100031,2026-01-21 16:11:15,Network Firewall reported a expired certificate in the Finance Subnet.,APAC,CC-SALES,High,"Okay, here’s a concise analysis:
+
+**Analysis:**
+
+*   **Root Cause:** Systemic – Potential misconfiguration or lack of automated certificate renewal.
+*   **Priority:** 3
+*   **Suggested Process Improvement:** Implement automated certificate renewal checks and alerts for the Finance subnet."
+INC-100032,2026-03-04 11:45:45,VPN Gateway reported a service outage during nightly backup.,LATAM,CC-IT-INFRA,Medium,"Okay, here’s a concise analysis:
+
+**Analysis:**
+
+*   **Root Cause:** Systemic – Potential issue with backup scheduling or system resource constraints.
+*   **Priority:** 3
+*   **Suggested Process Improvement:** Implement automated backup scheduling and monitor resource utilization to prevent future outages."
+INC-100033,2026-03-05 08:56:07,SAP ERP reported a expired certificate in Bogota Office.,LATAM,CC-IT-INFRA,High,"Okay, here’s a concise analysis:
+
+**Analysis:**
+
+*   **Root Cause:** Systemic – Potential lack of regular certificate validation procedures.
+*   **Priority:** 3
+*   **Suggested Process Improvement:** Implement automated certificate validation and renewal reminders for the Bogota Office."
+INC-100034,2026-03-31 07:48:23,Network Firewall reported a performance degradation in Bogota Office.,NORTHAM,CC-LOGISTICS,Low,"Okay, here’s a concise analysis:
+
+**Analysis:** Network Firewall performance degradation in Bogota Office – Likely a Technical issue. **Priority:** 3. **Suggested Process Improvement:** Immediate investigation into firewall logs, network connectivity, and potential hardware issues."
+INC-100035,2026-01-09 13:28:03,Network Firewall reported a unauthorized access attempt on the Cloud Cluster.,APAC,CC-FINANCE,Critical,"Okay, here’s a concise analysis:
+
+**Analysis:** Unauthorized access attempt on the Cloud Cluster – Technical.
+
+**Priority:** 3
+
+**Suggested Process Improvement:** Immediately investigate firewall logs, review access controls, and strengthen monitoring for suspicious activity."
+INC-100036,2026-01-19 05:25:03,Exchange Server reported a timeout error in Bogota Office.,EMEA,CC-SALES,Low,"Okay, here’s a concise analysis:
+
+**Analysis:**
+
+*   **Root Cause:** Systemic – Potential issue with Exchange Server resource limits or configuration.
+*   **Priority:** 3
+*   **Suggested Process Improvement:** Investigate Exchange server resource utilization (CPU, memory) and review configuration settings."
+INC-100037,2026-03-19 17:40:43,Payroll System reported a unauthorized access attempt in the Finance Subnet.,LATAM,CC-IT-INFRA,Medium,"Okay, here’s a concise analysis:
+
+**Analysis:** Unauthorized access to the Finance Subnet – Likely a Technical issue.
+
+**Priority:** 3
+
+**Suggested Process Improvement:** Implement stronger MFA for Finance access, conduct regular security audits of the subnet, and review user permissions."
+INC-100038,2026-04-26 09:16:12,Inventory API reported a connectivity failure in Cartagena Branch.,APAC,CC-LOGISTICS,Critical,"Okay, here’s a concise analysis:
+
+**Analysis:** Inventory API connectivity failure in Cartagena Branch – Technical. Priority: 3. Suggested Process Improvement: Investigate network latency, API stability, and potential upstream system issues."
+INC-100039,2026-01-30 17:27:21,VPN Gateway reported a high latency on the Cloud Cluster.,APAC,CC-LOGISTICS,Low,"Okay, here’s a concise analysis:
+
+**Analysis:** High latency on the VPN Gateway indicates a potential network issue. **Root Cause:** Likely a congested link or misconfigured routing. **Priority:** 3 – Requires investigation and immediate attention. **Suggested Process:** Network diagnostics and bandwidth testing."
+INC-100040,2026-01-07 17:40:42,VPN Gateway reported a unauthorized access attempt in the Production Environment.,APAC,CC-IT-INFRA,Low,"Okay, here’s a concise analysis:
+
+**Analysis:**
+
+*   **Root Cause:** Technical – Potential misconfigured firewall rules or a compromised user account.
+*   **Priority:** 3
+*   **Suggested Process Improvement:** Immediately investigate firewall logs, user access controls, and security policies."
+INC-100041,2026-02-19 05:23:56,SQL Server reported a expired certificate in Bogota Office.,APAC,CC-LOGISTICS,Medium,"Okay, here’s a concise analysis:
+
+**Analysis:**
+
+*   **Root Cause:** Systemic – Potential lack of certificate renewal process adherence.
+*   **Priority:** 3 – Requires immediate attention due to potential data loss and security risk.
+*   **Suggested Process Improvement:** Implement automated certificate renewal reminders and a clear, documented process for renewal."
+INC-100042,2026-01-23 15:26:36,Exchange Server reported a high latency during nightly backup.,APAC,CC-LOGISTICS,Low,"Okay, here’s a concise analysis:
+
+**Analysis:** High Exchange latency during nightly backups suggests a potential issue with network connectivity or server resource contention. **Priority:** 3. **Suggested Process Improvement:** Investigate network bandwidth, server CPU/memory utilization, and backup scheduling to identify the root cause."
+INC-100043,2026-01-24 14:40:05,Customer Portal reported a service outage in Bogota Office.,NORTHAM,CC-ADMIN,Low,"Okay, here’s a concise analysis:
+
+**Analysis:**
+
+*   **Root Cause:** Systemic – Potential database issue impacting Bogota Office.
+*   **Priority:** 3 – Requires immediate investigation.
+*   **Suggested Process:** Implement database monitoring and rollback procedures."
+INC-100044,2026-03-28 01:06:32,Network Firewall reported a database lock during nightly backup.,EMEA,CC-FINANCE,Critical,"Okay, here’s a concise analysis:
+
+**Analysis:** Network Firewall reported database lock during nightly backup – Likely a technical issue. **Priority:** 3. **Suggested Process Improvement:** Implement enhanced monitoring of backup processes and trigger alerts for lock events."
+INC-100045,2026-03-10 06:56:13,Cloud Storage reported a unauthorized access attempt in the Finance Subnet.,NORTHAM,CC-SALES,Low,"Okay, here’s a concise analysis:
+
+**Analysis:** Unauthorized access to the Finance Subnet.
+
+**Root Cause:** Likely a misconfigured access control or weak password policy.
+
+**Priority:** 3
+
+**Suggested Process Improvement:** Implement multi-factor authentication and regular access reviews."
+INC-100046,2026-03-20 09:19:09,Network Firewall reported a sync failure in the Production Environment.,LATAM,CC-SALES,Medium,"Okay, here’s a concise analysis:
+
+**Analysis:** Network Firewall sync failure in Production.
+
+**Root Cause:** Likely a configuration error or software glitch.
+
+**Priority:** 3 – Requires immediate investigation.
+
+**Suggested Process Improvement:** Implement enhanced monitoring and automated testing of firewall configurations."
+INC-100047,2026-01-06 11:42:40,Cloud Storage reported a expired certificate in the Finance Subnet.,NORTHAM,CC-FINANCE,High,"Okay, here’s a concise analysis:
+
+**Analysis:**
+
+*   **Root Cause:** Systemic – Potential misconfiguration of the certificate renewal process.
+*   **Priority:** 3
+*   **Suggested Process Improvement:** Implement automated certificate renewal checks and alerts."
+INC-100048,2026-02-24 07:31:07,Cloud Storage reported a connectivity failure in the Finance Subnet.,EMEA,CC-LOGISTICS,Critical,"Okay, here’s a concise analysis:
+
+**Analysis:** Cloud Storage connectivity failure in the Finance Subnet – **Technical (Network)**. Priority: 3. Suggested Process Improvement: Implement proactive monitoring and automated failover for this subnet."
+INC-100049,2026-01-16 07:29:03,SAP ERP reported a service outage on the Cloud Cluster.,LATAM,CC-LOGISTICS,Critical,"Okay, here’s a concise analysis:
+
+**Analysis:** SAP Cloud Cluster outage – Likely a Systemic issue. Root Cause: Potential database issue impacting data synchronization. Priority: 4 – Requires immediate investigation. Suggested Process Improvement: Implement enhanced monitoring and proactive database health checks."
+INC-100050,2026-02-25 09:07:21,Payroll System reported a expired certificate on the Cloud Cluster.,APAC,CC-ADMIN,High,"Okay, here’s a concise analysis:
+
+**Analysis:**
+
+*   **Root Cause:** Systemic – Potential lack of automated certificate renewal process.
+*   **Priority:** 3
+*   **Suggested Process Improvement:** Implement automated certificate renewal for the Cloud Cluster."
+INC-100051,2026-02-22 02:47:02,VPN Gateway reported a timeout error in the Production Environment.,APAC,CC-IT-INFRA,Medium,"Okay, here’s a concise analysis:
+
+**Analysis:** VPN Gateway timeout in Production – Technical.
+
+**Priority:** 3
+
+**Suggested Process Improvement:** Investigate recent VPN configuration changes, network latency, and potential resource constraints."
+INC-100052,2026-03-25 08:59:08,Exchange Server reported a unauthorized access attempt in Cartagena Branch.,LATAM,CC-ADMIN,Medium,"Okay, here’s a concise analysis:
+
+**Analysis:** Unauthorized access attempt on the Cartagena Branch Exchange Server.
+
+**Root Cause:** Likely a weak password policy or lack of MFA.
+
+**Priority:** 3
+
+**Suggested Process Improvement:** Implement MFA for all Exchange users and review password complexity."
+INC-100053,2026-02-05 18:59:39,VPN Gateway reported a service outage in the Production Environment.,LATAM,CC-FINANCE,Medium,"Okay, here’s a concise analysis:
+
+**Analysis:** VPN Gateway outage in Production. Root Cause: Potential network congestion. Priority: 3. Suggested Process Improvement: Implement network monitoring and proactive capacity planning."
+INC-100054,2026-03-01 03:40:07,Customer Portal reported a unauthorized access attempt in the Production Environment.,LATAM,CC-IT-INFRA,Medium,"Okay, here’s a concise analysis:
+
+**Analysis:** Unauthorized access attempt in Production.
+
+**Root Cause:** Likely a misconfigured security rule or weak password policy.
+
+**Priority:** 3
+
+**Suggested Process Improvement:** Implement enhanced monitoring and automated rule reviews for access attempts."
+INC-100055,2026-03-12 02:17:37,Network Firewall reported a timeout error during nightly backup.,APAC,CC-SALES,Low,"Okay, here’s a concise analysis:
+
+**Analysis:** Network Firewall timeout error during nightly backups – Likely a Systemic issue. Priority: 3. Suggested Process Improvement: Implement enhanced monitoring of firewall logs and automated rollback procedures."
+INC-100056,2026-02-26 02:11:33,Network Firewall reported a expired certificate in the Production Environment.,NORTHAM,CC-IT-INFRA,Critical,"Okay, here’s a concise analysis:
+
+**Analysis:** Network Firewall certificate expiration in Production.
+
+**Root Cause:** Likely a misconfiguration or automated update failure.
+
+**Priority:** 3
+
+**Suggested Process Improvement:** Implement automated certificate renewal checks and monitoring."
+INC-100057,2026-01-09 02:30:11,Payroll System reported a high latency in the Finance Subnet.,NORTHAM,CC-FINANCE,Medium,"Okay, here’s a concise analysis:
+
+**Analysis:** High latency in the Finance Subnet indicates a potential technical issue. **Priority: 3**. Suggested process improvement: Investigate network connectivity and server resource utilization within the Finance subnet."
+INC-100058,2026-01-04 05:22:38,SAP ERP reported a connectivity failure in Cartagena Branch.,NORTHAM,CC-FINANCE,High,"Okay, here’s a concise analysis:
+
+**Analysis:**
+
+*   **Root Cause:** Systemic – Potential network issue impacting SAP connectivity.
+*   **Priority:** 3
+*   **Suggested Process Improvement:** Implement proactive network monitoring and testing for the Cartagena Branch."
+INC-100059,2026-03-08 15:25:53,Payroll System reported a service outage during nightly backup.,EMEA,CC-LOGISTICS,Low,"Okay, here’s a concise analysis:
+
+**Analysis:**
+
+*   **Root Cause:** Systemic – Potential database issue during the backup process.
+*   **Priority:** 3
+*   **Suggested Improvement:** Implement enhanced monitoring of the backup process and automated error checks."
+INC-100060,2026-03-17 14:15:30,SQL Server reported a timeout error in the Production Environment.,EMEA,CC-LOGISTICS,Critical,"Okay, here’s a concise analysis:
+
+**Analysis:** SQL Server timeout error in Production.
+
+**Root Cause:** Likely a database query exceeding its execution time or resource constraints.
+
+**Priority:** 3
+
+**Suggested Process Improvement:** Implement query optimization, database monitoring, and potentially scaling the database server."
+INC-100061,2026-04-18 20:05:45,VPN Gateway reported a timeout error during nightly backup.,APAC,CC-LOGISTICS,High,"Okay, here’s a concise analysis:
+
+**Analysis:** VPN Gateway timeout during nightly backups – Likely a Systemic issue. Priority: 3. Suggested Process Improvement: Implement enhanced monitoring of VPN connection stability and trigger alerts for failed backups."
+INC-100062,2026-02-19 11:53:46,Cloud Storage reported a database lock on the Cloud Cluster.,EMEA,CC-LOGISTICS,Low,"Okay, here’s a concise analysis:
+
+**Analysis:** Cloud Storage database lock indicates a potential system issue. Root Cause: Likely a misconfiguration or resource contention. Priority: 3 – Requires immediate investigation. Suggested Process Improvement: Implement monitoring and proactive resource management."
+INC-100063,2026-04-08 20:51:21,Payroll System reported a connectivity failure in the Finance Subnet.,APAC,CC-ADMIN,Critical,"Okay, here’s a concise analysis:
+
+**Analysis:**
+
+*   **Root Cause:** Systemic – likely a recent network upgrade or configuration change impacting the Finance subnet.
+*   **Priority:** 3
+*   **Suggested Process Improvement:** Immediate network diagnostics and rollback of recent changes to isolate the issue."
+INC-100064,2026-02-08 05:53:59,SAP ERP reported a expired certificate in the Finance Subnet.,APAC,CC-IT-INFRA,High,"Okay, here’s a concise analysis:
+
+**Analysis:**
+
+*   **Root Cause:** Systemic – Potential misconfiguration or lack of monitoring of SAP certificate expiry.
+*   **Priority:** 3
+*   **Suggested Process Improvement:** Implement automated certificate expiry monitoring and alerts."
+INC-100065,2026-01-11 10:41:32,Network Firewall reported a service outage in Cartagena Branch.,NORTHAM,CC-SALES,Critical,"Okay, here’s a concise analysis:
+
+**Analysis:** Network Firewall outage in Cartagena Branch – Technical (Firewall Issue). Priority: 3. Suggested Process Improvement: Implement proactive monitoring and automated failover for the firewall to reduce future incidents."
+INC-100066,2026-01-29 05:31:46,Payroll System reported a connectivity failure on the Cloud Cluster.,NORTHAM,CC-LOGISTICS,High,"Okay, here’s a concise analysis:
+
+**Analysis:** Connectivity failure on the Cloud Cluster – Technical.
+
+**Priority:** 3
+
+**Suggested Process Improvement:** Immediately investigate network latency and DNS resolution issues."
+INC-100067,2026-04-28 18:09:34,Inventory API reported a performance degradation in the Finance Subnet.,APAC,CC-ADMIN,Low,"Okay, here’s a concise analysis:
+
+**Analysis:** Inventory API performance degradation in the Finance Subnet – Likely a technical issue. **Priority:** 3. **Suggested Process Improvement:** Investigate API logs, monitor resource utilization, and review recent code changes."
+INC-100068,2026-03-12 08:13:07,Inventory API reported a unauthorized access attempt in the Finance Subnet.,EMEA,CC-ADMIN,High,"Okay, here’s a concise analysis:
+
+**Analysis:** Unauthorized access to the Finance Subnet via the Inventory API.
+
+**Root Cause:** Likely a misconfigured API key or weak access control.
+
+**Priority:** 3
+
+**Suggested Process Improvement:** Implement stricter API key rotation and enhanced access control checks within the Finance subnet."
+INC-100069,2026-01-28 16:54:25,Inventory API reported a timeout error in Bogota Office.,EMEA,CC-LOGISTICS,Critical,"Okay, here’s a concise analysis:
+
+**Analysis:** Inventory API timeout in Bogotá Office – Technical.
+
+**Priority:** 3
+
+**Suggested Process Improvement:** Investigate API connectivity, monitor logs for errors, and review API usage patterns."
+INC-100070,2026-04-21 07:52:48,Inventory API reported a performance degradation in Bogota Office.,APAC,CC-LOGISTICS,Low,"Okay, here’s a concise analysis:
+
+**Analysis:** Inventory API performance degradation in Bogotá Office – Likely a Systemic issue. Priority: 3. Suggested Process Improvement: Implement monitoring and alerting for API performance, coupled with a thorough review of data pipelines and resource allocation."
+INC-100071,2026-03-19 14:09:22,Customer Portal reported a sync failure in Cartagena Branch.,NORTHAM,CC-LOGISTICS,Low,"Okay, here’s a concise analysis:
+
+**Analysis:**
+
+*   **Root Cause:** Systemic – Potential database connectivity issue impacting the Cartagena branch.
+*   **Priority:** 3
+*   **Suggested Process Improvement:** Immediate investigation into database connectivity and monitoring."
+INC-100072,2026-04-21 03:20:28,SQL Server reported a database lock on the Cloud Cluster.,APAC,CC-FINANCE,Low,"Okay, here’s a concise analysis:
+
+**Analysis:** SQL Server database lock on a Cloud Cluster.
+
+**Root Cause:** Likely a recent schema change, data migration, or application code issue impacting the database.
+
+**Priority:** 3
+
+**Suggested Process Improvement:** Implement database replication or change data capture (CDC) to minimize lock contention and improve recovery."
+INC-100073,2026-04-13 12:55:46,Customer Portal reported a database lock on the Cloud Cluster.,APAC,CC-IT-INFRA,High,"Okay, here’s a concise analysis:
+
+**Analysis:** Database lock on the Cloud Cluster – Likely a technical issue. **Priority:** 3. **Suggested Process Improvement:** Implement proactive monitoring of database health and automated rollback procedures."
+INC-100074,2026-01-25 13:22:26,VPN Gateway reported a unauthorized access attempt on the Cloud Cluster.,APAC,CC-SALES,Critical,"Okay, here’s a concise analysis:
+
+**Analysis:**
+
+*   **Root Cause:** Systemic – Potential misconfiguration or weak access controls.
+*   **Priority:** 3
+*   **Suggested Process Improvement:** Immediately review and strengthen access controls, including multi-factor authentication and regular security audits."
+INC-100075,2026-03-13 16:14:19,SAP ERP reported a service outage in Cartagena Branch.,NORTHAM,CC-LOGISTICS,High,"Okay, here’s a concise analysis:
+
+**Analysis:** SAP ERP service outage in Cartagena Branch – Likely a Systemic issue – Priority: 3. Suggested Process Improvement: Implement enhanced monitoring and proactive alerting for the branch."
+INC-100076,2026-03-01 05:59:23,Active Directory reported a connectivity failure in the Production Environment.,NORTHAM,CC-FINANCE,High,"Okay, here’s a concise analysis:
+
+**Analysis:** Active Directory connectivity failure in Production.
+
+**Root Cause:** Likely a DNS issue or network configuration problem.
+
+**Priority:** 3
+
+**Suggested Process Improvement:** Immediate investigation into DNS propagation and network health checks."
+INC-100077,2026-02-16 15:19:40,Customer Portal reported a service outage in the Production Environment.,NORTHAM,CC-FINANCE,Critical,"Okay, here’s a concise analysis:
+
+**Analysis:** Customer Portal outage in Production. Root Cause: Potential database issue. Priority: 3 – Requires immediate investigation. Suggested Process Improvement: Implement proactive monitoring and automated rollback procedures."
+INC-100078,2026-02-02 02:26:34,Cloud Storage reported a sync failure on the Cloud Cluster.,EMEA,CC-IT-INFRA,Low,"Okay, here’s a concise analysis:
+
+**Analysis:** Cloud Storage sync failure – Technical.
+
+**Priority:** 3
+
+**Suggested Process Improvement:** Implement enhanced monitoring of Cloud Cluster sync status and trigger automated alerts for potential failures."
+INC-100079,2026-03-05 22:17:54,Cloud Storage reported a high latency in Cartagena Branch.,NORTHAM,CC-LOGISTICS,Medium,"Okay, here’s a concise analysis:
+
+**Analysis:** Cloud Storage latency in Cartagena is likely a **Technical** issue stemming from network congestion or storage configuration.  **Priority:** 3. **Suggested Process Improvement:** Implement monitoring and proactive capacity planning for the Cartagena branch."
+INC-100080,2026-03-17 06:14:45,Payroll System reported a timeout error in the Finance Subnet.,NORTHAM,CC-FINANCE,Low,"Okay, here’s a concise analysis:
+
+**Analysis:**
+
+*   **Root Cause:** System Timeout – Likely due to resource exhaustion or a temporary overload in the Finance subnet.
+*   **Priority:** 3
+*   **Suggested Process Improvement:** Implement monitoring for Finance subnet resource usage and trigger alerts for potential timeouts."
+INC-100081,2026-04-14 08:46:14,Exchange Server reported a unauthorized access attempt in Bogota Office.,EMEA,CC-ADMIN,Low,"Okay, here’s a concise analysis:
+
+**Analysis:**
+
+*   **Root Cause:** Systemic – Potential misconfiguration or weak access controls within the Exchange Server.
+*   **Priority:** 3
+*   **Suggested Process Improvement:** Implement enhanced monitoring and auditing of Exchange Server access logs, including MFA enforcement."
+INC-100082,2026-02-14 06:53:42,Customer Portal reported a service outage in Bogota Office.,LATAM,CC-SALES,Critical,"Okay, here’s a concise analysis:
+
+**Analysis:**
+
+*   **Root Cause:** Systemic – Potential database issue impacting Bogota Office.
+*   **Priority:** 3 – Requires immediate investigation.
+*   **Suggested Process:** Implement database monitoring and rollback procedures."
+INC-100083,2026-02-27 07:16:41,Active Directory reported a timeout error on the Cloud Cluster.,APAC,CC-LOGISTICS,High,"Okay, here’s a concise analysis:
+
+**Analysis:** Active Directory timeout on the Cloud Cluster – **Technical**. **Priority:** 3. **Suggested Process Improvement:** Investigate recent changes to Cloud Cluster configuration, network connectivity, or DNS resolution."
+INC-100084,2026-01-03 08:52:32,Active Directory reported a expired certificate in Cartagena Branch.,EMEA,CC-FINANCE,High,"Okay, here’s a concise analysis:
+
+**Analysis:** Active Directory certificate expiration on the Cartagena Branch.
+
+**Root Cause:** Potential misconfiguration or lack of monitoring.
+
+**Priority:** 3
+
+**Suggested Process Improvement:** Implement automated certificate renewal checks and alerts."
+INC-100085,2026-02-14 00:48:01,Payroll System reported a database lock on the Cloud Cluster.,APAC,CC-IT-INFRA,Medium,"Okay, here’s a concise analysis:
+
+**Analysis:** Database lock on the Cloud Cluster – Likely a technical issue. **Priority:** 3. **Suggested Process Improvement:** Implement proactive monitoring of Cloud Cluster database health and automated rollback procedures."
+INC-100086,2026-01-24 03:47:56,Network Firewall reported a performance degradation in Cartagena Branch.,LATAM,CC-IT-INFRA,High,"Okay, here’s a concise analysis:
+
+**Analysis:** Network Firewall performance degradation in Cartagena Branch – Likely a **Technical** issue. Priority: 3. Suggested Process Improvement: Implement proactive monitoring and regular firewall health checks to identify and resolve issues before impacting users."
+INC-100087,2026-03-26 02:05:48,SQL Server reported a connectivity failure on the Cloud Cluster.,APAC,CC-IT-INFRA,Critical,"Okay, here’s a concise analysis:
+
+**Analysis:** SQL Server connectivity failure on a Cloud Cluster.
+
+**Root Cause:** Likely a network issue or misconfiguration impacting the cluster.
+
+**Priority:** 3
+
+**Suggested Process Improvement:** Investigate network connectivity between the on-premise and cloud environment – review firewall rules and DNS settings."
+INC-100088,2026-03-26 23:56:37,Customer Portal reported a expired certificate in the Finance Subnet.,EMEA,CC-FINANCE,Low,"Okay, here’s a concise analysis:
+
+**Analysis:**
+
+*   **Root Cause:** Systemic – Certificate expiration is a recurring issue.
+*   **Priority:** 3
+*   **Suggested Process:** Implement automated certificate renewal checks and alerts."
+INC-100089,2026-04-04 03:20:09,VPN Gateway reported a sync failure in the Production Environment.,EMEA,CC-FINANCE,Low,"Okay, here’s a concise analysis:
+
+**Analysis:** VPN Gateway sync failure in Production. Root Cause: Potential network congestion or configuration issue. Priority: 3 – Requires immediate investigation. Suggested Process Improvement: Implement monitoring and proactive configuration checks."
+INC-100090,2026-03-22 01:55:15,Cloud Storage reported a performance degradation in Cartagena Branch.,APAC,CC-FINANCE,High,"Okay, here’s a concise analysis:
+
+**Analysis:** Cloud Storage performance degradation in Cartagena Branch – Likely a Systemic issue. Priority: 3. Suggested Process Improvement: Implement proactive monitoring and alerting for storage performance, including regular capacity checks."
+INC-100091,2026-01-16 02:06:13,Exchange Server reported a performance degradation in the Production Environment.,LATAM,CC-IT-INFRA,Critical,"Okay, here’s a concise analysis:
+
+**Analysis:** Exchange Server performance degradation is likely a **Systemic** issue – likely due to increased load or resource exhaustion. **Priority:** 3. **Suggested Process Improvement:** Implement monitoring and proactive resource allocation to prevent future issues."
+INC-100092,2026-02-10 14:08:59,Cloud Storage reported a sync failure in the Finance Subnet.,LATAM,CC-IT-INFRA,Critical,"Okay, here’s a concise analysis:
+
+**Analysis:** Cloud Storage sync failure in the Finance Subnet – **Technical (Synchronization)**. Priority: 3. Suggested Process Improvement: Implement enhanced monitoring and alerting for this subnet, including automated retry mechanisms."
+INC-100093,2026-04-01 00:27:16,Payroll System reported a performance degradation in the Production Environment.,LATAM,CC-ADMIN,Critical,"Okay, here’s a concise analysis:
+
+**Analysis:** Payroll System performance degradation – Likely a Systemic issue. Priority: 3. Suggested Process Improvement: Implement monitoring and alerting for resource utilization, coupled with a thorough review of recent code changes and database performance."
+INC-100094,2026-03-25 23:47:59,Active Directory reported a expired certificate in Cartagena Branch.,APAC,CC-ADMIN,High,"Okay, here’s a concise analysis:
+
+**Analysis:** Active Directory certificate expiration on the Cartagena Branch.
+
+**Root Cause:** Potential misconfiguration or lack of monitoring.
+
+**Priority:** 3
+
+**Suggested Process Improvement:** Implement automated certificate renewal checks and alerts."
+INC-100095,2026-01-08 15:04:31,Cloud Storage reported a connectivity failure in the Production Environment.,APAC,CC-FINANCE,Critical,"Okay, here’s a concise analysis:
+
+**Analysis:** Cloud Storage connectivity failure in Production. Root Cause: Likely a network issue or misconfiguration. Priority: 3 – Moderate. Suggested Process Improvement: Implement proactive monitoring and automated troubleshooting for Cloud Storage."
+INC-100096,2026-03-15 05:49:08,Payroll System reported a database lock in Cartagena Branch.,EMEA,CC-FINANCE,High,"Okay, here’s a concise analysis:
+
+**Analysis:** Database lock in Cartagena Branch – Likely a technical issue – Priority: 3. Suggested Process Improvement: Implement proactive database monitoring and rollback procedures."
+INC-100097,2026-01-21 01:27:29,Customer Portal reported a performance degradation during nightly backup.,NORTHAM,CC-LOGISTICS,Medium,"Okay, here’s a concise analysis:
+
+**Analysis:**
+
+*   **Root Cause:** Systemic – Potential database overload or inefficient backup process.
+*   **Priority:** 3
+*   **Suggested Process Improvement:** Implement database monitoring and backup optimization tools, and review backup schedule frequency."
+INC-100098,2026-01-20 16:50:07,Active Directory reported a high latency in the Production Environment.,APAC,CC-FINANCE,Medium,"Okay, here’s a concise analysis:
+
+**Analysis:** Active Directory latency in Production is likely a Systemic issue – potential resource contention, outdated policies, or network bottlenecks. **Priority:** 3. **Suggested Process Improvement:** Implement monitoring and proactive policy adjustments to identify and resolve root causes."
+INC-100099,2026-03-20 15:34:12,Cloud Storage reported a database lock in the Finance Subnet.,LATAM,CC-FINANCE,High,"Okay, here’s a concise analysis:
+
+**Analysis:** Cloud Storage database lock in Finance Subnet – Likely a technical issue. **Priority:** 3. **Suggested Process:** Implement proactive monitoring, database backups, and clear rollback procedures."

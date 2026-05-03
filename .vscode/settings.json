@@ -1,0 +1,5 @@
+{
+    "python.defaultInterpreterPath": "venv_incident_orchestrator/Scripts/python.exe",
+    "python.terminal.activateEnvInSelectedTerminal": true,
+    "python.analysis.extraPaths": ["./Source/Python"]
+}
